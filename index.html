@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Learning Java Script! </title>
+</head>
+<body>
+    <h1> Hey I am Avinash </h1>
+
+
+
+    <!-- Best Practice of JavaScript is to put all the java script at the end of Body 
+        Where we done with every thing of body tags.
+        
+        Writing JavaScript code at the end of the body tag is a best practice in web development, and it is done for performance and page loading optimization reasons. When you place your JavaScript code at the end of the body tag, it ensures that the HTML content is loaded and rendered before the JavaScript is executed. Here are the reasons why this approach is recommended:
+
+        Faster Rendering: Placing JavaScript at the end of the body tag allows the HTML content to be rendered first. This way, users can see the main content of the page quickly without waiting for the JavaScript to load and execute. Faster rendering improves the perceived performance of the website and enhances the user experience.
+
+        Avoiding Render Blocking: JavaScript code can be render-blocking, meaning it delays the rendering of the page until the script is loaded and executed. By moving JavaScript to the end of the body tag, you minimize the impact of render-blocking scripts, as the essential content of the page will be displayed first.
+
+        Avoiding JavaScript Errors: If JavaScript is placed in the header or higher up in the document, it might run before the HTML elements it references are loaded. This can lead to JavaScript errors, causing parts of the code not to function as expected.
+
+        Page Load Speed: Placing JavaScript at the end of the body tag allows the rest of the page to load quickly. Since JavaScript files can be large and take time to download, moving them to the end ensures that the primary content and styles load first, improving the overall page load speed.
+
+        Better SEO: Search engine crawlers prefer to see the main content of the page early in the HTML document. When JavaScript is placed at the end, crawlers can more easily access and index the essential content, potentially improving SEO rankings.
+
+        While placing JavaScript at the end of the body tag is a common practice, there are cases where it may be necessary to load scripts in the head section or asynchronously to meet specific requirements. For example, critical scripts or scripts needed for the initial rendering may be included in the head section. Asynchronous loading can also be used to load non-essential scripts without blocking page rendering.
+
+        In modern web development, using the defer attribute in the script tag can also achieve a similar effect as placing scripts at the end of the body. The defer attribute allows the script to be executed after the HTML content has been parsed, avoiding blocking the page rendering while ensuring that the script runs in the correct order.
+
+
+
+
+
+
+    -->
+    <script src="./index.js">
+    </script>
+
+</body>
+</html>
